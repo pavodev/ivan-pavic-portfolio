@@ -21,7 +21,7 @@ const jobs = [
 
 const Experience = () => {
   return (
-    <section className="py-20 px-4">
+    <section className="w-full flex flex-col items-center justify-center py-20 px-4">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold text-center mb-12">Work Experience</h2>
         <div className="relative pl-10">

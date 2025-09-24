@@ -15,7 +15,7 @@ const diplomas = [
 
 const Education = () => {
   return (
-    <section className="py-20 px-4">
+    <section className="w-full flex flex-col items-center justify-center py-20 px-4">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold text-center mb-12">Education</h2>
         <div className="relative pl-10">
@@ -23,7 +23,7 @@ const Education = () => {
 
           {diplomas.map((diploma, index) => (
             <div key={index} className="mb-10">
-              <div className="absolute left-0 -ml-2 w-5 h-5 bg-blue-500 rounded-full"></div>
+              <div className="absolute left-0 -ml-2 w-7 h-7 bg-white text-xl text-center rounded-full">🎓</div>
 
               <h3 className="text-xl font-bold">{diploma.title}</h3>
               <p className="text-lg font-semibold text-blue-600">{diploma.school}</p>
